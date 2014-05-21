@@ -1,0 +1,56 @@
+==CronMod ICS==
+
+
+*CronMod was Built using CyanogenMod Source Code*
+
+*Brought to you by the CronMod-Dev Team*
+
+*Supported Devices*
+"Bravo", "Bravoc"
+
+
+#Inital Release 2.0.0# :-)
+
+-various xml and source edits
+
+
+#Release 2.0.1#
+
+-build using custom config to shrink size
+
+-replace djmesias source with evervolvs
+
+-fix led notifications
+
+-use spazedogs hardware ril source (fixs cdma service issues and should improve gsm)
+
+-add changelog in settings app (it does not work yet)
+
+-update to latest kernel
+
+-remove cyanogen ringtones/notifications to shrink size
+
+-remove video editor and add it as a choice on install
+
+
+#Inital Rerelease 2.1.0# :-)
+
+-pull updates from cyanogenmod and evervolv
+
+-replace some evervolv sources with modified cyanogenmod sources (more like the original ics builds)
+
+-replace spazedogs ril source with cyanogenmods
+
+-fix cdma service issues (all works now)
+
+-new apn config for cdma (same as my gingerbread rom)
+
+-update to latest kernel
+
+-add proper build flags and vendor files
+
+-fix camcorder (recording still choppy)
+
+-fix thumbnails for videos higher then 480p (still no playback)
+
+-fix gps
